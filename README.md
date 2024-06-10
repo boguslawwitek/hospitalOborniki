@@ -20,5 +20,5 @@ Backend:
 [GNU AGPLv3](https://github.com/boguslawwitek/hospitalOborniki/blob/main/LICENSE)
 
 # Authors
-Bogusław Witek
+Bogusław Witek<br/>
 Patryk Stachowiak
