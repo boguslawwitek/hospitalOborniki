@@ -1,0 +1,158 @@
+.container-home {
+  font-size: 10px;
+  font-weight: 500;
+}
+
+.large .container-home {
+  font-size: 13px;
+}
+
+.small .container-home {
+  font-size: 8px;
+}
+
+.contrast .container-home {
+  font-weight: 400;
+  background-color: black;
+}
+
+.dark .container-home {
+  font-weight: 400;
+  background-color: #111827;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px 10px 50px 10px;
+}
+
+.main h1, .main h2, .main h3, .main h4, .main h5, .main h6 {
+  font-size: 4em;
+  padding: 10px 0;
+  color: #374151;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.contrast .main h1, .contrast .main h2, .contrast .main h3, .contrast .main h4, .contrast .main h5, .contrast .main h6 {
+  color: yellow;
+  font-weight: 600;
+}
+
+.dark .main h1, .dark .main h2, .dark .main h3, .dark .main h4, .dark .main h5, .dark .main h6 {
+  color: #6875F5;
+  font-weight: 600;
+}
+
+section {
+  padding: 0 30px;
+}
+
+.other-img {
+  max-width: 100%;
+  max-height: 100vh;
+  border-radius: 4px;
+}
+
+.img-container {
+  width: 60%;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  float: left;
+}
+
+.main-image {
+  border-radius: 7px;
+  width: 100%;
+  height: auto;
+}
+
+.section1 .float-text {
+  font-size: 2em;
+  color: black;
+}
+
+.contrast .section1 .float-text {
+  color: yellow;
+}
+
+.dark .section1 .float-text {
+  color: white;
+}
+
+.section1 .float-text > p, .section1 .float-text > div {
+  margin-bottom: 15px;
+}
+
+.float-text ul, .float-text ol {
+  position: relative;
+  left: 30px;
+  margin: 7px 0;
+}
+
+.float-text li {
+  margin-bottom: 2px;
+}
+
+.float-text b {
+  font-weight: 600;
+}
+
+.contrast .float-text b {
+  font-weight: 500;
+}
+
+.dark .float-text b {
+  font-weight: 500;
+}
+
+.other div {
+  font-size: 2em;
+}
+
+.other img {
+  display: block;
+  max-width: 100%;
+  max-height: 100vh;
+  border-radius: 4px;
+}
+
+.other h1, .other h2, .other h3, .other h4, .other h5, .other h6 {
+  font-size: 2em;
+  padding: 10px 0;
+  color: #374151;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.contrast .other h1, .contrast .other h2, .contrast .other h3, .contrast .other h4, .contrast .other h5, .contrast .other h6 {
+  color: yellow;
+  font-weight: 600;
+}
+
+.dark .other h1, .dark .other h2, .dark .other h3, .dark .other h4, .dark .other h5, .dark .other h6 {
+  color: #6875F5;
+  font-weight: 600;
+}
+
+@media (max-width: 600px) {
+  .main h1 {
+    font-size: 2.8em;
+  }
+  .section1 .float-text {
+    font-size: 1.8em;
+  }
+  .section1 {
+    padding: 0;
+  }
+  .img-container {
+    width: 100%;
+    float: unset;
+    padding-right: 0;
+  }
+  .float-text ul, .float-text ol {
+    left: 0;
+    margin-left: 30px;
+  }
+}

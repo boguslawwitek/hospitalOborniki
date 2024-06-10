@@ -1,0 +1,218 @@
+@import './colors.scss';
+
+.container-ward {
+    font-size: 10px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+  
+.large .container-ward {
+    font-size: 13px;
+}
+  
+.small .container-ward {
+    font-size: 8px;
+}
+
+.contrast .container-ward {
+    background-color: black;
+    font-weight: 400;
+    color: yellow;
+}
+  
+.dark .container-ward {
+    background-color: $dark-bg;
+    font-weight: 400;
+    color: white;
+}
+
+.container-ward .main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-ward .main section {
+    padding: 20px 30px;
+}
+
+.container-ward .main section h2 {
+    font-size: 4em;
+    padding: 10px 0;
+    color: $light-heading;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.contrast .container-ward .main section h2 {
+    color: yellow;
+    font-weight: 600;
+  }
+  
+.dark .container-ward .main section h2 {
+    color: $dark-heading;
+    font-weight: 600;
+}
+
+.container-ward .flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 1.8em;
+}
+
+.container-ward .flex .left {
+  padding: 5px 50px 5px 0;
+  width: 65%;
+}
+
+.container-ward .flex .left ul, .container-ward .flex .left ol {
+  margin-left: 30px;
+}
+
+.container-ward .flex .left div:nth-child(1) {
+  margin-bottom: 30px;
+}
+
+.container-ward .flex .left p {
+  margin-bottom: 10px;
+}
+
+.container-ward .flex .right {
+  width: 35%;
+}
+
+.container-ward .flex .right ul, .container-ward .flex .right ol {
+  list-style-type: none;
+}
+
+.container-ward .flex .right p {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.container-ward .flex .right ul > ul > li, .container-ward .flex .right ol > ol > li, .container-ward .flex .right ul > ol > li, .container-ward .flex .right ol > ul > li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-ward .flex .right .place {
+  color: $light-heading;
+  font-weight: 600;
+}
+
+.dark .container-ward .flex .right .place {
+  color: $dark-heading;
+}
+
+.contrast .container-ward .flex .right .place {
+  color: yellow;
+}
+
+.container-ward .flex .right .call {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.container-ward .flex .right .contact {
+  margin-top: 10px;
+}
+
+.container-ward .flex .right .call .icon {
+  font-weight: 600;
+  font-size: 1.3em;
+}
+
+.dark .container-ward .flex .right .call .icon {
+  font-weight: 500;
+}
+
+.container-ward .red {
+  color: red;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+.container-ward .important {
+  font-size: 2em;
+}
+
+.container-ward div.important p:nth-of-type(1) {
+  color: red;
+  font-weight: 600;
+}
+
+.container-ward .important ol, .container-ward .important ul {
+  margin-left: 30px;
+}
+
+.container-ward .second {
+  margin-top: 20px;
+}
+
+.container-ward .main b {
+    font-weight: 600;
+}
+
+.container-ward .image-map {
+    width: 100%;
+    max-width: 350px;
+    min-width: 150px;
+    border: 3px dashed gray;
+    padding: 10px;
+}
+  
+.container-ward .image-map img {
+    display: block;
+    height: 100%;
+    width: 100%;
+}
+  
+.container-ward .map-info {
+    color: grey;
+    font-weight: 600;
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+
+@media (max-width: 900px) {
+    .container-ward .main section h2 {
+        font-size: 3.5em;
+    }
+
+    .container-ward .flex {
+      flex-direction: column;
+      padding: 0 10px;
+    }
+
+    .container-ward .important {
+      padding: 0 10px;
+    }
+
+    .container-ward .flex .right {
+      margin-top: 30px;
+      width: 100%;
+    }
+
+    .container-ward .flex .left {
+      padding: 5px 0 5px 0;
+      width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-ward .main section {
+        padding: 10px 5px;
+    }
+
+    .container-ward .main section h2 {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 400px) {
+    .container-ward .main section h2 {
+        font-size: 2.5em;
+    }
+}

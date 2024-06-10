@@ -1,0 +1,206 @@
+.container-telephones {
+  font-size: 10px;
+  font-weight: 500;
+  padding-bottom: 50px;
+}
+
+.large .container-telephones {
+  font-size: 13px;
+}
+
+.small .container-telephones {
+  font-size: 8px;
+}
+
+.contrast .container-telephones {
+  background-color: black;
+  font-weight: 400;
+  color: yellow;
+}
+
+.dark .container-telephones {
+  background-color: #111827;
+  font-weight: 400;
+  color: white;
+}
+
+.container-telephones .main {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.container-telephones .main section {
+  padding: 20px 30px;
+}
+
+.container-telephones .main section h2 {
+  font-size: 4em;
+  padding: 10px 0;
+  color: #374151;
+  margin-bottom: 5px;
+  font-weight: 700;
+}
+
+.contrast .container-telephones .main section h2 {
+  color: yellow;
+  font-weight: 600;
+}
+
+.dark .container-telephones .main section h2 {
+  color: #6875F5;
+  font-weight: 600;
+}
+
+.container-telephones .main section h3 {
+  color: #374151;
+  margin-top: 10px;
+  font-size: 1.5em;
+}
+
+.contrast .container-telephones .main section h3 {
+  color: yellow;
+  font-weight: 600;
+}
+
+.dark .container-telephones .main section h3 {
+  color: #6875F5;
+}
+
+.container-telephones .flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 1.8em;
+}
+
+.container-telephones .flex .content {
+  padding: 5px 50px 5px 0;
+  width: 100%;
+}
+
+.container-telephones .flex .content ul, .container-telephones .flex .content ol {
+  margin-left: 0;
+}
+
+.container-telephones .flex .content div:nth-child(1) {
+  margin-bottom: 0;
+}
+
+.container-telephones .flex .content p {
+  margin-bottom: 10px;
+}
+
+.container-telephones .flex .right {
+  width: 35%;
+}
+
+.container-telephones .red {
+  color: red;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.container-telephones .main b {
+  font-weight: 600;
+}
+
+.container-telephones .main mark {
+  background-color: transparent;
+  color: red;
+}
+
+.container-telephones .main p {
+  margin-top: 5px;
+}
+
+.container-telephones ul {
+  list-style-type: none;
+}
+
+.container-telephones .telephones-container {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-telephones .flex .content .telephones-container .telephones {
+  width: 50%;
+  margin-bottom: 20px;
+}
+
+.telephones-container .telephones ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: row;
+  margin-bottom: 0;
+}
+
+.telephones-container .icon {
+  margin-right: 5px;
+}
+
+.telephones-container .icon span {
+  margin-top: 5px;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.telephones-container .phone-title {
+  font-weight: 600;
+}
+
+.telephones-container .number {
+  color: #6875F5;
+  font-weight: 600;
+}
+
+.telephones-container h3 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+@media (max-width: 900px) {
+  .container-telephones .main section h2 {
+    font-size: 3.5em;
+  }
+  .container-telephones .flex {
+    flex-direction: column;
+    padding: 0 10px;
+  }
+  .container-telephones .flex .content {
+    padding: 5px 0 5px 0;
+    width: 100%;
+  }
+  .container-telephones .telephones-container {
+    flex-direction: column;
+  }
+  .container-telephones .flex .content .telephones-container .telephones {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .telephones-container .phone-title {
+    text-align: center;
+  }
+  .telephones-container .number {
+    text-align: center;
+  }
+  .telephones-container .telephones ul li {
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  .container-telephones .main section {
+    padding: 10px 5px;
+  }
+  .container-telephones .main section h2 {
+    font-size: 3em;
+  }
+}
+@media (max-width: 400px) {
+  .container-telephones .main section h2 {
+    font-size: 2.5em;
+  }
+}

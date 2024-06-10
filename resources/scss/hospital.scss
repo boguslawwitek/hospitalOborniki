@@ -1,0 +1,234 @@
+@import './colors.scss';
+
+.container-hospital {
+    font-size: 10px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+  
+.large .container-hospital {
+    font-size: 13px;
+}
+  
+.small .container-hospital {
+    font-size: 8px;
+}
+
+.contrast .container-hospital {
+    background-color: black;
+    font-weight: 400;
+    color: yellow;
+}
+  
+.dark .container-hospital {
+    background-color: $dark-bg;
+    font-weight: 400;
+    color: white;
+}
+
+.container-hospital .main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-hospital .main section {
+    padding: 20px 30px;
+}
+
+.container-hospital .main section h2 {
+    font-size: 4em;
+    padding: 10px 0;
+    color: $light-heading;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.contrast .container-hospital .main section h2 {
+    color: yellow;
+    font-weight: 600;
+  }
+  
+.dark .container-hospital .main section h2 {
+    color: $dark-heading;
+    font-weight: 600;
+}
+
+.container-hospital .main section h3 {
+    color: $light-heading;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.contrast .container-hospital .main section h3 {
+    color: yellow;
+    font-weight: 600;
+  }
+  
+.dark .container-hospital .main section h3 {
+    color: $dark-heading;
+}
+
+.container-hospital .flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 1.8em;
+}
+
+.container-hospital .flex .content {
+  padding: 5px 50px 5px 0;
+  width: 100%;
+}
+
+.container-hospital .flex .content ul, .container-hospital .flex .content ol {
+  margin-left: 30px;
+}
+
+.container-hospital .flex .content div:nth-child(1) {
+  margin-bottom: 30px;
+}
+
+.container-hospital .flex .content p {
+  margin-bottom: 10px;
+}
+
+.container-hospital .flex .right {
+  width: 35%;
+}
+
+.container-hospital .red {
+  color: red;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.container-hospital .main b {
+    font-weight: 600;
+}
+
+.container-hospital .main mark {
+    background-color: transparent;
+    color: red;
+}
+
+.container-hospital .main p {
+    margin-top: 5px;
+}
+
+.container-hospital .main .ue-img {
+    max-width: 730px;
+    min-width: 150px;
+    width: 100%;
+}
+
+.container-hospital .main .ue-img2 {
+    max-width: 800px;
+    width: 100%;
+}
+
+.container-hospital .diet-link {
+    color: red;
+}
+
+.container-hospital .diets {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    width: 100%;
+    border-radius: 4px;
+}
+
+.container-hospital .diet-container {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.container-hospital .diet-container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.diet-file {
+    margin-top: 30px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.container-hospital .flex .content .diets div:nth-child(1) {
+    margin-bottom: 0;
+}
+
+.container-hospital .flex .content .diets .diet-container .img-diets-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgba(128, 128, 128, 0.1);
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.container-hospital .img-diets {
+    width: 350px;
+    height: 250px;
+    background-size: cover;
+    object-fit: cover;
+}
+
+.container-hospital .diets-content h3 {
+    text-align: center;
+}
+
+.container-hospital .diets-content ul {
+    max-width: 370px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+.container-hospital .diets-content .hr {
+    margin: 30px 10px;
+}
+
+.container-hospital .diets-content a {
+    color: #6875F5;
+}
+
+@media (max-width: 900px) {
+    .container-hospital .main section h2 {
+        font-size: 3.5em;
+    }
+
+    .container-hospital .flex {
+      flex-direction: column;
+      padding: 0 10px;
+    }
+
+    .container-hospital .flex .content {
+      padding: 5px 0 5px 0;
+      width: 100%;
+    }
+
+    .container-hospital .diet-container {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-hospital .main section {
+        padding: 10px 5px;
+    }
+
+    .container-hospital .main section h2 {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 400px) {
+    .container-hospital .main section h2 {
+        font-size: 2.5em;
+    }
+}

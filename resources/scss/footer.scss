@@ -1,0 +1,170 @@
+.footer {
+    padding: 30px 0;
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #edf2f7;
+    color: black;
+    font-size: 10px;
+    line-height: 1.2;
+    border-top: 1px solid #e2e8f0;
+    font-weight: 500;
+}
+
+.large .footer {
+    font-size: 13px;
+}
+
+.small .footer {
+    font-size: 8px;
+}
+
+.contrast .footer {
+    background-color: yellow;
+    color: black;
+    font-weight: 400;
+    border-top: 1px solid #374151;
+}
+
+.dark .footer {
+    background-color: black;
+    color: white;
+    font-weight: 400;
+    border-top: 1px solid #5145CD;
+    background-color: #362F78;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer a {
+    color: black;
+}
+
+.dark .footer a {
+    color: white;
+}
+
+.contrast .footer a {
+    color: black;
+}
+
+.container-footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 2.4em;
+}
+
+.copyright {
+    max-width: 1600px;
+    margin: 30px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2em;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.copyright a {
+    font-weight: 600;
+}
+
+.contrast .copyright a {
+    font-weight: 500;
+}
+
+.dark .copyright a {
+    font-weight: 500;
+}
+
+.author {
+    margin-top: 7px;
+}
+
+.hours-container {
+    margin-top: 7px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hours-container ul {
+    list-style-type: none;
+}
+
+.hours-container li {
+    margin-top: 7px;
+}
+
+.hours-container div {
+    padding: 0 25px 0 0;
+}
+
+.hours-container b {
+    font-weight: 500;
+}
+
+.wosp {
+    width: 220px;
+}
+
+.wosp-img {
+    width: 100%;
+    height: auto;
+}
+
+.container-footer > div {
+    margin-bottom: 30px;
+}
+
+@media (max-width: 900px) {
+    .copyright {
+        font-size: 1.6em;
+    }
+
+    .container-footer {
+        flex-wrap: wrap;
+        justify-content: center;
+        font-size: 1.9em;
+    }
+
+    .container-footer > div {
+        margin-right: 30px;
+    }
+}
+
+@media (max-width: 600px) {
+    .hours {
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .container-footer {
+        margin: 0 auto;
+        justify-content: center;
+        align-items: flex-start;
+        flex-direction: column;
+        max-width: 80%;
+    }
+}
+
+@media (max-width: 420px) {
+    .container-footer {
+        max-width: unset;
+    }
+}
+
+@media (max-width: 400px) {
+    .wosp-img {
+        width: 200px;
+    }
+}

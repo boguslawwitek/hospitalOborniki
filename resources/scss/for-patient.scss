@@ -1,0 +1,150 @@
+@import './colors.scss';
+@import './announcements.scss';
+
+.container-for-patient {
+    font-size: 10px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+  
+.large .container-for-patient {
+    font-size: 13px;
+}
+  
+.small .container-for-patient {
+    font-size: 8px;
+    min-height: 40vh;
+}
+
+.contrast .container-for-patient {
+    background-color: black;
+    font-weight: 400;
+    color: yellow;
+}
+  
+.dark .container-for-patient {
+    background-color: $dark-bg;
+    font-weight: 400;
+    color: white;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.main section {
+    padding: 20px 30px;
+}
+
+.main section h2 {
+    font-size: 4em;
+    padding: 10px 0;
+    color: $light-heading;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.contrast .main section h2 {
+    color: yellow;
+    font-weight: 600;
+  }
+  
+.dark .main section h2 {
+    color: $dark-heading;
+    font-weight: 600;
+}
+
+.main section h3 {
+    color: $light-heading;
+    margin-top: 10px;
+    font-size: 1.5em;
+}
+
+.contrast .main section h3 {
+    color: yellow;
+    font-weight: 600;
+  }
+  
+.dark .main section h3 {
+    color: $dark-heading;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 1.8em;
+}
+
+.flex .content {
+  padding: 5px 50px 5px 0;
+  width: 100%;
+}
+
+.flex .content ul, .flex .content ol {
+  margin-left: 30px;
+}
+
+.flex .content div:nth-child(1) {
+  margin-bottom: 30px;
+}
+
+.flex .content p {
+  margin-bottom: 10px;
+}
+
+.flex .right {
+  width: 35%;
+}
+
+.red {
+  color: red;
+  font-size: 1.2em;
+  font-weight: 600;
+}
+
+.main b {
+    font-weight: 600;
+}
+
+.main mark {
+    background-color: transparent;
+    color: red;
+}
+
+.main p {
+    margin-top: 5px;
+}
+
+@media (max-width: 900px) {
+    .main section h2 {
+        font-size: 3.5em;
+    }
+
+    .flex {
+      flex-direction: column;
+      padding: 0 10px;
+    }
+
+    .flex .content {
+      padding: 5px 0 5px 0;
+      width: 100%;
+    }
+}
+
+@media (max-width: 600px) {
+    .main section {
+        padding: 10px 5px;
+    }
+
+    .main section h2 {
+        font-size: 3em;
+    }
+}
+
+@media (max-width: 400px) {
+    .main section h2 {
+        font-size: 2.5em;
+    }
+}

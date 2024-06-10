@@ -1,0 +1,16 @@
+{
+    "/js/app.js": "/js/app.js",
+    "/css/main.css": "/css/main.css",
+    "/css/header.css": "/css/header.css",
+    "/css/nav.css": "/css/nav.css",
+    "/css/footer.css": "/css/footer.css",
+    "/css/home.css": "/css/home.css",
+    "/css/subsides.css": "/css/subsides.css",
+    "/css/telephones.css": "/css/telephones.css",
+    "/css/ward.css": "/css/ward.css",
+    "/css/contact.css": "/css/contact.css",
+    "/css/for-patient.css": "/css/for-patient.css",
+    "/css/hospital.css": "/css/hospital.css",
+    "/css/administration.css": "/css/administration.css",
+    "/css/photoswipe.css": "/css/photoswipe.css"
+}

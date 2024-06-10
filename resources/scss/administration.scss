@@ -1,0 +1,162 @@
+@import './colors.scss';
+
+.container-administration {
+    font-size: 10px;
+    font-weight: 500;
+    padding-bottom: 50px;
+}
+  
+.large .container-administration {
+    font-size: 13px;
+}
+  
+.small .container-administration {
+    font-size: 8px;
+}
+
+.contrast .container-administration {
+    background-color: black;
+    font-weight: 400;
+}
+  
+.dark .container-administration {
+    background-color: $dark-bg;
+    font-weight: 400;
+}
+
+.container-administration .main {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container-administration .main section {
+    padding: 20px 30px;
+}
+
+.container-administration .main section p {
+    font-size: 2em;
+    color: black;
+}
+
+.contrast .container-administration .main section p {
+    color: yellow;
+}
+  
+.dark .container-administration .main section p {
+    color: white;
+}
+
+.container-administration .main section h2 {
+    font-size: 4em;
+    padding: 10px 0;
+    color: $light-heading;
+    margin-bottom: 5px;
+    font-weight: 700;
+}
+
+.contrast .container-administration .main section h2 {
+    color: yellow;
+    font-weight: 600;
+  }
+  
+.dark .container-administration .main section h2 {
+    color: $dark-heading;
+    font-weight: 600;
+}
+
+.container-administration .cards {
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 2em;
+}
+
+.container-administration .card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 0 10px 20px 10px;
+    width: 30%;
+    min-width: 130px;
+    background-color: #c3dafe;
+    border-radius: 6px;
+    box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+}
+
+.container-administration .card > div {
+    margin-top: 5px;
+}
+
+.dark .container-administration .card {
+    background-color: #667eea;
+}
+
+.contrast .container-administration .card {
+    color: yellow;
+    background-color: black;
+    border: 1px solid yellow;
+} 
+
+.container-administration .name {
+    font-weight: 700;
+}
+
+.container-administration .role {
+    color: $light-heading;
+    font-weight: 600;
+}
+
+.dark .container-administration .role {
+    color: #c3dafe;
+}
+
+.contrast .container-administration .role {
+    color: yellow;
+}
+
+.container-administration .contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-administration .contact .icon {
+    margin-right: 5px;
+}
+
+.container-administration .contact .icon span {
+    margin-top: 5px;
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+@media (max-width: 900px) {
+    .container-administration .main section h2 {
+        font-size: 3.5em;
+    }
+
+    .container-administration .card {
+        width: 45%;
+    }
+}
+
+@media (max-width: 600px) {
+    .container-administration .main section {
+        padding: 10px 5px;
+    }
+
+    .container-administration .main section h2 {
+        font-size: 3em;
+    }
+
+    .container-administration .card {
+        width: 90%;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 400px) {
+    .container-administration .main section h2 {
+        font-size: 2.5em;
+    }
+}
